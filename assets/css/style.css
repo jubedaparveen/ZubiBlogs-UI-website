@@ -1,0 +1,238 @@
+
+a{
+    color: inherit;
+    font-size: 1.3rem;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #d7a63a !important;
+    /* font-weight: bold; */
+  }
+  h2, h3{
+    line-height: 1;
+  }
+
+  /* Smooth scroll */
+  :root {
+    scroll-behavior: smooth;
+  }
+.bg-color{
+    background-color: black;
+    color: white !important; 
+}
+.hover-color a:hover{
+    color: #ceaa5b !important;
+    background-color: black;
+    /* font-weight: bold; */
+    box-shadow: 1px 1px 1px;
+}
+.mylogo>img{
+    width: 12rem;
+    height: 4rem;
+}
+.offcanvas-header>img{
+    width: 13rem;
+    justify-content: center;
+}
+.indicators-shape{
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.carousel-text{
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.text-color a{
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.text-color h3{
+    /* font-size: 1.2rem; */
+}
+.author .photo {
+    margin-right: 10px;
+  }
+  
+  .author .photo img {
+    width: 40px;
+    border-radius: 50%;
+    margin-bottom: 0;
+  }
+  
+  .author .name h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: var(--font-secondary);
+  }
+  .border_card{
+    border-bottom: 1px solid !important;
+    border-radius: 0px;
+  }
+  .card_body_padding{
+    padding: 1rem 0rem 1rem 0rem;
+  }
+  .number_position{
+    position: relative;
+  }
+  .number{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 5rem !important;
+    color: rgb(214, 209, 209, 0.6);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 0;
+
+  }
+  .post-meta{
+    color: rgb(185, 183, 183);
+  }
+  .footer-links>li img{
+    width: 70px;
+    height: 70px;
+  }
+  .date{
+    line-height: 0.1;
+  }
+  .right-img img{
+    width: 100%;
+    height: 100% !important;
+  }
+  /*--------------------------------------------------------------
+# Team Section
+--------------------------------------------------------------*/
+.team .team-member {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border-radius: 5px;
+  transition: 0.5s;
+  padding: 30px;
+  height: 100%;
+}
+
+ /* @media (max-width: 468px) {
+  .team .team-member {
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+} */
+
+.team .team-member .pic {
+  overflow: hidden;
+  width: 150px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.team .team-member .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.team .team-member:hover {
+  transform: translateY(-10px);
+}
+
+.team .team-member .member-info {
+  padding-left: 30px;
+}
+
+/* @media (max-width: 468px) {
+  .team .team-member .member-info {
+    padding: 30px 0 0 0;
+    text-align: center;
+  }
+} */
+
+.team .team-member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.team .team-member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.team .team-member span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: color-mix(in srgb,#ffffff, transparent 85%);
+  bottom: 0px;
+  left: 0;
+}
+
+/* @media (max-width: 468px) {
+  .team .team-member span::after {
+    left: calc(50% - 25px);
+  }
+} */
+
+.team .team-member p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.team .team-member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+
+/* @media (max-width: 468px) {
+  .team .team-member .social {
+    justify-content: center;
+  }
+} */
+
+.team .team-member .social a {
+  background: color-mix(in srgb, #ffffff, transparent 94%);
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 36px;
+  height: 36px;
+}
+
+.team .team-member .social a i {
+  color: color-mix(in srgb, #ffffff, transparent 20%);
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+/* .team .team-member .social a:hover {
+  background: var(--accent-color);
+} */
+
+.team .team-member .social a:hover i {
+  color: var(--contrast-color);
+}
+
+.team .team-member .social a+a {
+  margin-left: 8px;
+}
+
+.margin-footer{
+  margin-bottom: 3rem !important;
+}
+/*-----------------------------------# Starter Section Section ----------------------------*/
+
+.shadow-box{
+  box-shadow: 1px 1px 10px 1px rgb(180, 177, 177) !important;
+}
